@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="landing.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="home.html">
+        <img
+          src="./assets/cryptraffic-low-resolution-logo-color-on-transparent-background.png"
+          alt="logo"
+          width="230px"
+          id="logo"
+      /></a>
+      <a href="#" class="sign-in-btn btn">Sign In</a>
+    </nav>
+    <main class="container">
+      <div class="left-section">
+        <i class="fa-solid fa-circle" style="color: #eef0f3" id="circle"></i>
+        <i
+          class="fa-solid fa-arrow-right fa-2xs"
+          style="color: #000000"
+          id="arrow"
+        ></i>
+        <h1 class="create-an-account-text">Create an account</h1>
+        <p class="required-text">Required fields have an asterisk:*</p>
+        <form class="form-section">
+          <div class="form-top">
+            <div class="first-name">
+              <label for="firstname" class="labels">First name*</label>
+              <br />
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="First name"
+                class="input-group"
+              />
+            </div>
+            <div class="last-name">
+              <label for="lastname" class="labels">Last name*</label> <br />
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Last name"
+                class="input-group"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <label for="email" class="labels">Email*</label> <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="input-group"
+            />
+          </div>
+          <div class="password">
+            <label for="psw" class="labels">Password*</label> <br />
+            <input
+              type="password"
+              name="psw"
+              id="psw"
+              placeholder="Minimun 8 characters"
+              class="input-group"
+            />
+          </div>
+          <div class="required">
+            <input
+              type="checkbox"
+              name="required"
+              id="required"
+              value="required"
+            />
+            <label for="required"
+              >I certify that i am 18 years of age or older, agree to the,
+              <br />
+              <a href="#" class="required-links">User Agreement</a>, and
+              acknowledge the
+              <a href="#" class="required-links">Privacy Policy.</a>
+            </label>
+          </div>
+          <div class="create-btn">
+            <input type="submit" value="Create free account" id="create-btn" />
+          </div>
+        </form>
+      </div>
+      <div class="image-section">
+        <img
+          src="./assets/crypto-logo.png"
+          alt="crypto"
+          width="500px"
+          id="crypto-logo"
+        />
+      </div>
+    </main>
+  </body>
+</html>

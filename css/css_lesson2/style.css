@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Forum", cursive;
+  text-align: center;
+  color: #f6fff8;
+  background-color: #a4c3b2;
+  text-decoration: none;
+}
+
+hr {
+  height: 5px;
+  background-color: #cce3de;
+  margin-block: 20px;
+}
+
+.login-box {
+  height: 60px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+input {
+  border-radius: 8px;
+  border-color: #cce3de;
+}
+
+a {
+  padding: 10px 20px;
+}
+
+footer input {
+  margin-bottom: 30px;
+}
+
+#gonder {
+  background-color: #46544c;
+  border-radius: 20px;
+}
+
+#gonder:hover {
+  background-color: #cce3de;
+  transition: 0.7s;
+  color: #46544c;
+}
+
+#sifirla {
+  background-color: #cce3de;
+  color: #46544c;
+  border-radius: 20px;
+}
+
+#sifirla:hover {
+  background-color: #46544c;
+  transition: 0.7s;
+  color: #f6fff8;
+}

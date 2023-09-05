@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url(../aura/assets/c70d930ab341b6ad9ffb22f056b54413.jpg);
+  background-size: cover;
+}
+
+.nav {
+  position: absolute;
+}
+
+h1 {
+  width: 93px;
+  height: 97px;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 14px;
+
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: default;
+}
+
+.links {
+  position: relative;
+  left: 1100px;
+  top: -70px;
+  color: white;
+  margin-right: 80px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 7.2px;
+}
+
+nav a:hover {
+  color: #a2a2a2;
+  transition: 0.8s;
+}
+
+.container {
+  position: absolute;
+  color: #fff;
+  margin: 100px auto;
+  margin-left: 550px;
+  cursor: default;
+}
+
+#iam {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 7.2px;
+  position: relative;
+  left: 100px;
+  top: -10px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#aura {
+  font-size: 144px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 14.4px;
+}
+
+#enviromentalist {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 7.2px;
+  position: relative;
+  top: 30px;
+  left: 230px;
+}
+
+.logos {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.logos ul > li {
+  padding-top: 15px;
+}
+
+#scroll {
+  color: white;
+  transform: rotate(90deg);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 5.6px;
+  position: absolute;
+  right: 10px;
+  bottom: 100px;
+}
+
+#arrow {
+  position: absolute;
+  bottom: 32px;
+  right: 48px;
+}

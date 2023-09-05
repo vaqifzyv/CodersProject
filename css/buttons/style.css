@@ -1,0 +1,42 @@
+main {
+  margin-top: 250px;
+  text-align: center;
+}
+
+button {
+  margin-right: 20px;
+  padding: 14px 32px;
+  cursor: pointer;
+}
+
+#btn-1 {
+  border-radius: 20px;
+  border: 1px solid #2e2e2e;
+}
+
+#btn-1:hover {
+  box-shadow: 2px 2px;
+  transition: 0.7s;
+}
+
+#btn-1:active {
+  box-shadow: 0px 0px;
+  transition: 0.2s;
+}
+
+#btn-2 {
+  background-color: #3a86ff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+#btn-2:hover {
+  background-color: #214887;
+  transition: 0.5s;
+}
+
+#btn-3 {
+  border: 1px dashed #e63946;
+}

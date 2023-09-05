@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  float: left;
+  font-family: "Inter", sans-serif;
+  color: #2d2e2e;
+  cursor: pointer;
+}
+
+ul {
+  padding-top: 36px;
+}
+
+ul > li {
+  font-size: 14px;
+  margin-left: 45px;
+}
+
+.btns {
+  margin-left: 250px;
+}
+
+#login {
+  margin-right: 24px;
+  margin-top: 32px;
+}
+
+#getstarted {
+  padding: 17px 30px;
+  margin-top: 16px;
+  background-color: #3a4f39;
+  color: #fff;
+  border-radius: 4px;
+  border: none !important;
+}
+
+#getstarted:hover {
+  background-color: #253326;
+  transition: 0.5s;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <div class="left-side">
+        <img src="./assets/logo.png" alt="logo" id="logo" width="70" />
+        <h2 id="about">
+          Getting <br />
+          Started With <br />
+          VR Creation
+        </h2>
+        <img src="./assets/items.png" alt="items" id="items" width="315" />
+      </div>
+      <div class="right-side">
+        <p id="languages">
+          <a href="#">
+            English (UK)<i
+              class="fa-solid fa-caret-down"
+              style="color: #000000"
+            ></i
+          ></a>
+        </p>
+        <h1 id="create">Create Account</h1>
+
+        <div class="signupgoogle">
+          <a href="#">
+            <img
+              src="./assets/google.png"
+              alt="google"
+              id="google"
+              width="14"
+            />
+            <p id="googletext">Signup with Google</p></a
+          >
+        </div>
+        <div class="signupfacebook">
+          <a href="#">
+            <img
+              src="./assets/facebook.png"
+              alt="facebook"
+              id="facebook"
+              width="14"
+            />
+            <p id="facebooktext">Signup with Facebook</p></a
+          >
+        </div>
+        <p id="or-text">- OR -</p>
+        <form class="form-section">
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Full Name"
+          />
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="password" name="psw" id="psw" placeholder="Password" />
+          <button class="create-btn">Create Account</button>
+        </form>
+        <div class="bottomtext">
+          Already have an account? <a href="#">Log In</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

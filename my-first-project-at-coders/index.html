@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="This site include e-books and this type of materials to your read"
+    />
+    <meta name="keywords" content="Books, e-books, online library" />
+    <meta name="author" content="Vaqif Zeynalov" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600&family=Heebo:wght@300;400;500&family=Inter:wght@300;400;500;600;700&family=Nunito:wght@400;500;600&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vaze's Online Library</title>
+  </head>
+  <body>
+    <!-- Bu navbar hissesidir -->
+    <nav>
+      <div>
+        <a href="#">
+          <img
+          src="./assets/vazes-online-library-low-resolution-logo-color-on-transparent-background.png"
+          alt="logo" width=300px" /></a
+        >
+      </div>
+      <ul class="navbar">
+        <li>
+          <a href="#about"> <i class="fa-solid fa-house"></i> About Us</a>
+        </li>
+        <li>
+          <a href="#contacts"
+            ><i class="fa-regular fa-address-book"></i> Contacts</a
+          >
+        </li>
+        <li>
+          <a href="#books"><i class="fa-solid fa-book"></i> Books</a>
+        </li>
+        <li>
+          <a href="#cards"
+            ><i class="fa-solid fa-right-to-bracket"></i> Login / Signup</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Bu main hissedir -->
+    <main>
+      <p id="about">
+        Welcome to <b>Vaze's Online Library</b>, where the world of literature
+        meets the convenience of the digital age. We're thrilled to present a
+        curated collection of e-books, e-journals, articles, and more, all
+        accessible from the comfort of your device.
+      </p>
+
+      <img
+        src="./assets/—Pngtree—online library and elearning concept_8817463.png"
+        alt="books"
+        width="370"
+      />
+    </main>
+    <!-- Bu login ve Signup cardlaridir -->
+    <section id="cards">
+      <div class="login-box">
+        <form>
+          <h2><i class="fa-solid fa-right-to-bracket"></i> LOGIN</h2>
+          <label for="username">Username</label><br />
+          <input type="text" name="username" /><br />
+          <label for="psw">Password</label><br />
+          <input type="password" value="" name="psw" /><br />
+          <button name="login" type="submit" id="login">LOGIN</button><br />
+          <a href="#">Forgot the password?</a>
+        </form>
+      </div>
+
+      <div class="signup-box">
+        <form>
+          <h2><i class="fa-solid fa-user-plus"></i> SIGN UP</h2>
+          <label for="email">Email</label><br />
+          <input type="email" name="email" /><br />
+          <label for="psw">Password</label><br />
+          <input type="password" name="psw" /><br />
+          <label for="username">Username</label><br />
+          <input type="text" name="username" /><br />
+          <button name="signup" type="submit" id="signup">SIGN UP</button>
+        </form>
+      </div>
+    </section>
+    <!-- Bu sectionda kitablar ucun table movcuddur -->
+    <section class="books" id="books">
+      <table>
+        <tr>
+          <th class="ourbooksheading" colspan="3">Our Books</th>
+        </tr>
+        <tr>
+          <th>Author</th>
+          <th>Book Name</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Philip Roth</td>
+          <td>Letting Go</td>
+          <td>$17.00</td>
+          <td>
+            <button id="purchase" type="submit" name="purchase">
+              Purchase
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Erica Jong</td>
+          <td>Fear of Flying</td>
+          <td>$21.00</td>
+          <td id="lasttd">
+            <button id="purchase" type="submit" name="purchase">
+              Purchase
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Donald J. Sobol</td>
+          <td>Encyclopedia Brown, Boy Detective</td>
+          <td>$6.99</td>
+          <td>
+            <button id="purchase" type="submit" name="purchase">
+              Purchase
+            </button>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <!-- Bura footer sectionudur -->
+    <footer id="contacts">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#cards">Login / Signup</a></li>
+      </ul>
+      <hr />
+      <p>Copyright &copy; 2023 Vaze's Online Library</p>
+    </footer>
+  </body>
+</html>
