@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Inter;
+}
+
+body {
+  background: #232539;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+#logo {
+  position: absolute;
+  top: 30px;
+}
+
+.left-buttons {
+  display: flex;
+  position: relative;
+  left: -80px;
+}
+
+.left-buttons li > a {
+  margin-right: 70px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#middle-button {
+  padding: 8px 20px;
+  border-radius: 35px;
+  border: 2px solid #a1a1a174;
+  background: linear-gradient(
+    180deg,
+    rgba(84, 136, 0, 0.46) 0%,
+    rgba(211, 109, 109, 0) 100%
+  );
+}
+
+.right-section {
+  margin-right: 100px;
+  border-left: 1px solid #000;
+}
+
+.right-section a {
+  margin-left: 30px;
+  padding-block: 10px;
+  border-radius: 50px;
+  background: #34743e;
+  color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.right-section a:hover {
+  background: #234d29;
+  transition: 0.7s;
+  color: #a8a8a8;
+}
+
+#login-btn {
+  padding-inline: 42px;
+}
+
+#reg-btn {
+  padding-inline: 31px;
+}
+
+main {
+  display: flex;
+  position: absolute;
+  left: 130px;
+}
+
+.leftside {
+  position: relative;
+  top: 150px;
+  color: #fff;
+}
+
+.ux-ui.text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.design-text {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 4.2px;
+  margin-top: 30px;
+}
+
+.see-more-text {
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 150px;
+}
+
+.social {
+  margin-top: 100px;
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bottom-social {
+  position: absolute;
+}
+
+.bottom-social ul > li > a {
+  display: flex;
+  position: relative;
+  top: 20px;
+}
+
+#twitter {
+  margin-left: 35px;
+}
+
+#instagram {
+  margin-left: 70px;
+}
+
+#git {
+  margin-left: 105px;
+}
+
+#facebook {
+  margin-left: 140px;
+}
+
+.rightside {
+  margin-left: 300px;
+  margin-top: 100px;
+}
