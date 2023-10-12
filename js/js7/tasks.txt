@@ -1,0 +1,60 @@
+TASKS 1
+
+1. Istifadəçidən ad, soyad və yaş dəyəri alın. Console hissəyə Mənim adım filankesov filankes mənim filan yaşım var yazsın. Filan yerinə istifadəçidən gələn dəyəri yazın.
+
+2.İstifadəçidən Ədədlər alın onların cəmini fərqini və hasilini yazın Console hissəyə amma belə çıxarsın  9+10=19 kimi çıxarsın.
+
+3.İstifadəçidən Ölkə , Şəhər, Küçə adını yazsın sonda Bunları birləşdirib console-a çıxarsın. Məs : Azərbaycan , Bakı Sübhi Salayev 7 küçəsi yazsın.
+
+TASKS 2
+
+1. İstifadəçidən 3 dənə tərəf alın side1 , side2, side3  bu tərəflərə görə üçbucağın mövcudluğunu yoxlayın. Mövcuddursa Ekrana mövcuddur deyilsə mövcud deyildir yazsın.
+
+2.Üçbucağın tərəflərin mövcudluğunu yoxladıqdan sonra üçbucağın tərəfinə görə tipin tapın bərabər tərəfli müxtəlif tərəfli və ya bərabəryanlı olduğunu təyin edin.
+
+3.Havanın tipinə görə havanın yağışlı günəşli qarlı olduğunu yazın switch case ilə yazın. 'cloudy'  olarsa hava 'It might be cold, you need a jacket.' yazsın məsələn.
+
+4. İstifadəçidən ədəd alsın ədəd 1-12 arası olsun bu ədədlərdən kiçik və böyük olarsa ekrana ədəd doğru deyil yazsın. Sonra ədədə görə ilin ayını müəyyən etsin. məsələn ədəd 11 olarsa Ekrana bu noyabr ayıdır yazsın. Switch casse ilə yazın .
+
+5.İstifadəçidən ədəd alın bu ədədin mənfi və ya müsbət olmasını ekrana yazdırın Ternary operatordan istifadə edərək.
+
+TASKS 3
+
+1. Aşağıdakı arraylar-dən Birdənə FullStack arrayı düzəldin hər bir arrayın içindəki elementi fullStack array-nə push edin  const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux'] const backEnd = ['Node','Express', 'MongoDB']
+
+2. const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24] min və max age-i tap
+
+3. age array-dən evenAge  array-i düzəldin yəni ages içində cütləri seçib evenAge-i yaradan kod yazın . evenAge = [22,24,20,26,24] olsun sonda
+
+4. yuxarıdakı ages arrayın həndəsi ortasını tapın 
+
+5. Yuxarıdakı ages arrayın ədədi ortasını tapın
+
+TASKS 4 
+
+1. const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux'] arrayinin adlarının ekrana yazdırın
+
+2. const backEnd = ['Node','Express', 'MongoDB'] array-in dəyərini ekrana yazdırın forof dövrü ilə
+
+3. 1-100 qədər 3 və 6 bölünən ədədlərin cəmini tapın
+
+4.50-70 qədər 3 bölünən ədədlərin hasilin tapın
+
+5. -10 -dan 30-a qədər cüt ədədlərin sayını tapın
+
+
+
+
+
+
+
+
+1 Input ile daxil olunan ədədin rəqəmlərinin kvadratları cəmini tapın
+
+2 İstifadəçidən alınan n sayda ədədi array’i toplayın ve siralayin 
+
+3 Istifadecinin daxil etdiyi ededin kok altini tap
+
+4 Istifadeci 0 daxil edenedek edelerin cemini tapin
+
+5 Input ile daxil olunan 3 ededden ortancili tapan funksiya yazin

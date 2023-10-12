@@ -1,0 +1,20 @@
+TASK 1
+
+1den 20ye qeder ededlerin hasili 
+
+TASK 2
+
+-10dan +13e kimi 3e ve 5e bolunen ededlerin hasili ve 2ye ve yaxud 5e bolunmeyen ededlerin cemi 
+
+task 3
+
+verilmis iki arrayin 
+
+1 359 9990 10 123 -437
+
+1 13 0 -100 44 -50 
+
+birinci arrayin en boyuk elementi ile ikinci arrayin en kicin elementi topla 
+
+bu arrayin en boyuk elementi ile ikinci arrayin en kicin elementini deyis
+
